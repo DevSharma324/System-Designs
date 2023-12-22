@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T15:42:01.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eBojZ9Gs_Oq33CJziaXm" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-22T11:17:46.384Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8P_PG2piXo1diLiwxFtJ" version="22.1.11" type="github">
   <diagram name="Layout" id="3tFr-54vqNAXreYe3aTh">
-    <mxGraphModel dx="3215" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2857" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <object label="" django-id="" id="0">
           <mxCell />
@@ -157,7 +157,7 @@
         </mxCell>
         <object label="" django-id="img_pane" id="KJbxnqqP8v8nSf_yf0gy-100">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
-            <mxGeometry x="460" y="156" width="440" height="440" as="geometry" />
+            <mxGeometry x="460" y="160" width="440" height="274" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-101" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1" connectable="0">
@@ -245,24 +245,24 @@
         </object>
         <object label="Load Image" django-id="load_image" django-submit-type="POST" id="KJbxnqqP8v8nSf_yf0gy-137">
           <mxCell style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=3.57;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
-            <mxGeometry x="510" y="640.5" width="140" height="28" as="geometry" />
+            <mxGeometry x="510" y="560.5" width="140" height="28" as="geometry" />
           </mxCell>
         </object>
         <object label="Refresh Image Data" django-id="refresh_image" django-submit-type="POST" id="KJbxnqqP8v8nSf_yf0gy-138">
           <mxCell style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=3.57;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
-            <mxGeometry x="710" y="640.5" width="140" height="28" as="geometry" />
+            <mxGeometry x="710" y="560.5" width="140" height="28" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-139" value="AUTOFICATEs" style="text;strokeColor=none;fillColor=none;html=1;fontSize=40;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Lucida Console;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="470" y="32.5" width="420" height="40" as="geometry" />
+        <mxCell id="KJbxnqqP8v8nSf_yf0gy-139" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;AUTOFICATE&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=40;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Lucida Console;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="510" y="36" width="260" height="27.5" as="geometry" />
         </mxCell>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-140" value="&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;excel_load&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;add_data&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;load_image&lt;/li&gt;&lt;li style=&quot;&quot;&gt;refresh_image&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;export_images&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1316" y="212" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-141" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="690" as="sourcePoint" />
-            <mxPoint x="680" y="620" as="targetPoint" />
+            <mxPoint x="680" y="610" as="sourcePoint" />
+            <mxPoint x="680" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-142" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1" connectable="0">
@@ -303,7 +303,7 @@
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-186" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;html=1;spacingLeft=3;spacing=5;" parent="KJbxnqqP8v8nSf_yf0gy-158" vertex="1">
           <mxGeometry y="27" width="300" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-187" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Student Na" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" parent="KJbxnqqP8v8nSf_yf0gy-186" vertex="1">
+        <mxCell id="KJbxnqqP8v8nSf_yf0gy-187" value="Student Name 2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;" parent="KJbxnqqP8v8nSf_yf0gy-186" vertex="1">
           <mxGeometry width="300" height="28" as="geometry">
             <mxRectangle width="300" height="28" as="alternateBounds" />
           </mxGeometry>
@@ -415,22 +415,6 @@
         </mxCell>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-210" value="&lt;ol&gt;&lt;li&gt;excel_path&lt;/li&gt;&lt;li&gt;txt_pos_x&lt;/li&gt;&lt;li&gt;txt_pos_y&lt;/li&gt;&lt;li&gt;txt_size&lt;/li&gt;&lt;li&gt;txt_font&lt;/li&gt;&lt;li&gt;txt_color_code&lt;/li&gt;&lt;li&gt;img_pane&lt;/li&gt;&lt;li&gt;curr_data_new_val&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_png&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_pdf&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_jpeg&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_zip&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1316" y="388" width="240" height="350" as="geometry" />
-        </mxCell>
-        <object label="Unlock" django-id="curr_data_new_val" id="KJbxnqqP8v8nSf_yf0gy-213">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;shadow=0;arcSize=50;" parent="1" vertex="1">
-            <mxGeometry x="1183" y="105" width="42" height="18" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Lock" django-id="curr_data_new_val" id="KJbxnqqP8v8nSf_yf0gy-215">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;shadow=0;arcSize=50;" parent="1" vertex="1">
-            <mxGeometry x="1183" y="132" width="42" height="18" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-216" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=20;fontColor=default;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1132" y="152" as="sourcePoint" />
-            <mxPoint x="1132" y="132" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="0d_Yu4pwUIrla5kgw-yX-9" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="610" y="-79" width="140" height="89" as="geometry" />
