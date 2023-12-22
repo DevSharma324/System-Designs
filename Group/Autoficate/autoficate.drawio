@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T12:39:35.232Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WQiMR8mwTf5eIzrMouOt" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-22T14:57:15.186Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kygv62YNGvEvn9qjPu6N" version="22.1.11" type="github" pages="2">
   <diagram name="Layout" id="3tFr-54vqNAXreYe3aTh">
     <mxGraphModel dx="2635" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -35,15 +35,15 @@
         </mxCell>
         <object label="Load" django-id="load_excel" django-submit-type="POST" id="KJbxnqqP8v8nSf_yf0gy-23">
           <mxCell style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=3.57;whiteSpace=wrap;" parent="1" vertex="1">
-            <mxGeometry x="325" y="138" width="60" height="20" as="geometry" />
+            <mxGeometry x="300" y="138" width="60" height="20" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-24" value="Excel Sheet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="24" y="138" width="80" height="20" as="geometry" />
         </mxCell>
-        <object label="Path..." django-id="excel_path" id="KJbxnqqP8v8nSf_yf0gy-25">
+        <object label="File Name" django-id="excel_name" id="KJbxnqqP8v8nSf_yf0gy-25">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
-            <mxGeometry x="115" y="138" width="200" height="20" as="geometry" />
+            <mxGeometry x="115" y="138" width="165" height="20" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-31" value="Position" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
@@ -413,7 +413,7 @@
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-208" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;barPos=67.241;fillColor2=#99ddff;strokeColor2=none;direction=north;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="380" y="504" width="20" height="216" as="geometry" />
         </mxCell>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-210" value="&lt;ol&gt;&lt;li&gt;excel_path&lt;/li&gt;&lt;li&gt;txt_item_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;txt_pos_x&lt;/li&gt;&lt;li&gt;txt_pos_y&lt;/li&gt;&lt;li&gt;txt_size&lt;/li&gt;&lt;li&gt;txt_font&lt;/li&gt;&lt;li&gt;txt_color_code&lt;/li&gt;&lt;li&gt;img_pane&lt;/li&gt;&lt;li&gt;curr_data_new_val&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_png&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_pdf&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_jpeg&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_zip&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="KJbxnqqP8v8nSf_yf0gy-210" value="&lt;ol&gt;&lt;li&gt;excel_name&lt;/li&gt;&lt;li&gt;txt_item_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;txt_pos_x&lt;/li&gt;&lt;li&gt;txt_pos_y&lt;/li&gt;&lt;li&gt;txt_size&lt;/li&gt;&lt;li&gt;txt_font&lt;/li&gt;&lt;li&gt;txt_color_code&lt;/li&gt;&lt;li&gt;img_pane&lt;/li&gt;&lt;li&gt;curr_data_new_val&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_png&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_pdf&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_jpeg&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_zip&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1316" y="388" width="240" height="350" as="geometry" />
         </mxCell>
         <mxCell id="0d_Yu4pwUIrla5kgw-yX-9" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1" connectable="0">
