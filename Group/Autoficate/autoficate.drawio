@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T14:57:15.186Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kygv62YNGvEvn9qjPu6N" version="22.1.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-23T16:36:31.064Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FklBJBj6oZUVNDBArLjN" version="22.1.11" type="github" pages="2">
   <diagram name="Layout" id="3tFr-54vqNAXreYe3aTh">
-    <mxGraphModel dx="2635" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3200" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <object label="" django-id="" id="0">
           <mxCell />
@@ -97,9 +97,11 @@
             <mxGeometry x="130" y="438" width="140" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-64" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;rounded=1;align=left;verticalAlign=middle;fontFamily=Helvetica;spacing=2;labelBorderColor=none;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;arcSize=37;swimlaneLine=1;swimlaneFillColor=default;spacingLeft=50;fillColor=default;strokeColor=#36393d;fillStyle=auto;gradientColor=none;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry y="504" width="380" height="216" as="geometry" />
-        </mxCell>
+        <object label="" django-id="inspector_header" id="KJbxnqqP8v8nSf_yf0gy-64">
+          <mxCell style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;rounded=1;align=left;verticalAlign=middle;fontFamily=Helvetica;spacing=2;labelBorderColor=none;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontStyle=0;arcSize=37;swimlaneLine=1;swimlaneFillColor=default;spacingLeft=50;fillColor=default;strokeColor=#36393d;fillStyle=auto;gradientColor=none;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+            <mxGeometry y="504" width="380" height="216" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-79" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;html=1;spacingLeft=3;spacing=5;" parent="KJbxnqqP8v8nSf_yf0gy-64" vertex="1">
           <mxGeometry width="380" height="44" as="geometry" />
         </mxCell>
@@ -248,7 +250,7 @@
             <mxGeometry x="510" y="560.5" width="140" height="28" as="geometry" />
           </mxCell>
         </object>
-        <object label="Refresh Image Data" django-id="refresh_image" django-submit-type="POST" id="KJbxnqqP8v8nSf_yf0gy-138">
+        <object label="Update Data" django-id="update_data" django-submit-type="POST" id="KJbxnqqP8v8nSf_yf0gy-138">
           <mxCell style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=3.57;whiteSpace=wrap;fontSize=14;" parent="1" vertex="1">
             <mxGeometry x="710" y="560.5" width="140" height="28" as="geometry" />
           </mxCell>
@@ -256,7 +258,7 @@
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-139" value="&lt;font style=&quot;font-size: 44px;&quot;&gt;AUTOFICATE&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=40;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Lucida Console;fontColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="36" width="260" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-140" value="&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;load_excel&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;add_item&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;load_image&lt;/li&gt;&lt;li style=&quot;&quot;&gt;refresh_image&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;export_images&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="KJbxnqqP8v8nSf_yf0gy-140" value="&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;load_excel&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;add_item&lt;/li&gt;&lt;li style=&quot;font-size: 20px;&quot;&gt;load_image&lt;/li&gt;&lt;li style=&quot;&quot;&gt;update_data&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;export_images&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1316" y="212" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-141" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
@@ -289,9 +291,11 @@
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="KJbxnqqP8v8nSf_yf0gy-145" source="KJbxnqqP8v8nSf_yf0gy-15" target="KJbxnqqP8v8nSf_yf0gy-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-158" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;spacing=2;labelBorderColor=none;html=1;labelBackgroundColor=none;fontStyle=0;arcSize=37;swimlaneLine=1;swimlaneFillColor=default;spacingLeft=50;fillColor=default;strokeColor=#36393d;fillStyle=auto;gradientColor=none;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="959" y="100" width="300" height="384" as="geometry" />
-        </mxCell>
+        <object label="" django_id="inspector_data" id="KJbxnqqP8v8nSf_yf0gy-158">
+          <mxCell style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;spacing=2;labelBorderColor=none;html=1;labelBackgroundColor=none;fontStyle=0;arcSize=37;swimlaneLine=1;swimlaneFillColor=default;spacingLeft=50;fillColor=default;strokeColor=#36393d;fillStyle=auto;gradientColor=none;shadow=0;" parent="1" vertex="1">
+            <mxGeometry x="959" y="100" width="300" height="384" as="geometry" />
+          </mxCell>
+        </object>
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-190" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;rounded=0;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;html=1;spacingLeft=3;spacing=5;" parent="KJbxnqqP8v8nSf_yf0gy-158" vertex="1">
           <mxGeometry width="300" height="27" as="geometry" />
         </mxCell>
@@ -413,7 +417,7 @@
         <mxCell id="KJbxnqqP8v8nSf_yf0gy-208" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;barPos=67.241;fillColor2=#99ddff;strokeColor2=none;direction=north;rounded=0;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="380" y="504" width="20" height="216" as="geometry" />
         </mxCell>
-        <mxCell id="KJbxnqqP8v8nSf_yf0gy-210" value="&lt;ol&gt;&lt;li&gt;excel_name&lt;/li&gt;&lt;li&gt;txt_item_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;txt_pos_x&lt;/li&gt;&lt;li&gt;txt_pos_y&lt;/li&gt;&lt;li&gt;txt_size&lt;/li&gt;&lt;li&gt;txt_font&lt;/li&gt;&lt;li&gt;txt_color_code&lt;/li&gt;&lt;li&gt;img_pane&lt;/li&gt;&lt;li&gt;curr_data_new_val&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_png&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_pdf&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_jpeg&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_zip&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
+        <mxCell id="KJbxnqqP8v8nSf_yf0gy-210" value="&lt;ol&gt;&lt;li&gt;excel_name&lt;/li&gt;&lt;li&gt;txt_item_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;txt_pos_x&lt;/li&gt;&lt;li&gt;txt_pos_y&lt;/li&gt;&lt;li&gt;txt_size&lt;/li&gt;&lt;li&gt;txt_font&lt;/li&gt;&lt;li&gt;txt_color_code&lt;/li&gt;&lt;li&gt;inspector_header&lt;/li&gt;&lt;li&gt;img_pane&lt;/li&gt;&lt;li&gt;inspector_data&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_png&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_pdf&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_format_jpeg&lt;br&gt;&lt;/li&gt;&lt;li&gt;export_zip&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontSize=20;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1316" y="388" width="240" height="350" as="geometry" />
         </mxCell>
         <mxCell id="0d_Yu4pwUIrla5kgw-yX-9" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1" connectable="0">
@@ -434,11 +438,11 @@
             <mxPoint x="70" y="49" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A0vg6Ay_GBT6Qfqabb5H-1" value="Item Name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="A0vg6Ay_GBT6Qfqabb5H-1" value="Item Name" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="30" y="218" width="75" height="20" as="geometry" />
         </mxCell>
         <object label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Name&lt;/span&gt;&lt;/div&gt;" django-id="txt_item_name" id="A0vg6Ay_GBT6Qfqabb5H-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" parent="1" vertex="1">
             <mxGeometry x="120" y="218" width="140" height="20" as="geometry" />
           </mxCell>
         </object>
